@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<grid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <meta>
+      <culture>zh-CN</culture>
+      <editor>ReoGrid Core</editor>
+      <core-ver>2.0.0.0</core-ver>
+    </meta>
+    <rows>2</rows>
+    <cols>2</cols>
+    <default-row-height>20</default-row-height>
+    <default-col-width>70</default-col-width>
+    <settings meta="30474829790">
+      <show-row-header>false</show-row-header>
+      <show-col-header>false</show-col-header>
+    </settings>
+    <script />
+  </head>
+  <style bgcolor="#00000000" color="#800080" font="Calibri" font-size="12" bold="false" italic="false" strikethrough="false" underline="false" align="left" valign="top" text-wrap="no-wrap" padding="(0,0,0,0)" rotate-angle="0">
+    <fill-pattern color="#00000000" style="0" />
+  </style>
+  <rows>
+    <row row="0" height="176" last-height="176" />
+    <row row="1" height="176" last-height="176" />
+  </rows>
+  <cols>
+    <col col="0" width="348" last-width="348" />
+    <col col="1" width="348" last-width="348" />
+  </cols>
+  <v-borders />
+  <h-borders />
+  <cells>
+    <cell row="0" col="0">U1 VGA1</cell>
+    <cell row="0" col="1">U2 VGA1</cell>
+    <cell row="1" col="0">U3 VGA1</cell>
+    <cell row="1" col="1">U4 VGA1</cell>
+  </cells>
+</grid>

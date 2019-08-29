@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="button3.Text" xml:space="preserve">
+    <value>應用</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>選擇</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>主頁標誌圖片 :</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="bt_wallSetConfirm.Text" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>拼接設置</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>提示：用戶設置主頁標誌Logo和選擇主板類型需要管理員權限！</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>主板類型</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>矩陣設置</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label_Ts.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_AddPro.Text" xml:space="preserve">
+    <value>協議添加</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>551, 21</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>注意： 矩陣選擇 ：（默認 1 ~ 39） 地址：(0 ~ 255) 通道數： （0 ~ 128）</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>VIDEO 矩陣</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>通道數：</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>時間設置</value>
+  </data>
+  <data name="radioButton2.Text" xml:space="preserve">
+    <value>矩陣</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>指令優先級：</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>間隔時間(ms)：</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>VGA 矩陣</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>通道數：</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>HDMI 矩陣</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>通道數：</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>DVI 矩陣</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>通道數：</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>矩陣協議</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>矩陣對應的切換指令集：
+#in --輸入通道    
+#id --  矩陣設備地址 
+#out -- 輸出通道 
+CRC -- 校驗
+
+ 1号：(DVI/HDMI/VGA/VIDEO)
+&lt; #in ,#out, #id , D , V &gt;
+
+ 2号：(DVI/HDMI/VGA/VIDEO)
+#in , #out, #id , D , V  
+
+ 3号：(DVI/VGA/VIDEO)
+96 01 01 [count] {A0,A4,AF}  #out  #in  CRC
+
+ 4号：(DVI/HDMI/VGA/VIDEO)
+#in  *  #out  !
+
+ 5号：(DVI/VGA/VIDEO)
+23 #id 0 [count*3 &amp; FF]  04  #out #in 56 FF
+
+ 6号：(DVI/HDMI/VGA/VIDEO)
+C5 B1 3id {A3,A2,A5,AF} [3+count] 15 52 #in #out CRC
+
+ 7号：(DVI/HDMI/VGA/VIDEO)
+｛PV,PA ,PD ,PH ,PR} #id "SW" #in #out  NT
+
+ 8号：(DVI/HDMI/VGA/VIDEO)
+FF #id {04 ,03} #in #out AA
+
+ 9号：(DVI/HDMI/VGA/VIDEO)
+96 #id {A0 , A1} 01 [2*count + 2]  #out  #in CRC
+
+ 10号：(DVI/HDMI/VGA/VIDEO)
+F4 #in 21 #out #id 00 CRC
+
+ 11号：(DVI/HDMI/VGA/VIDEO)
+#in  "X"  #out  "."     ("&amp;")
+
+ 12号：(DVI/HDMI/VGA/VIDEO)
+"*" "I"  #in {"O"+#out}  "!"
+ 
+ 13号：(DVI/HDMI/VGA/VIDEO)
+#in  "B"  #out  "."
+
+ 14号：(DVI/HDMI/VGA/VIDEO)
+F2 00 00 21 #out 00 00 CRC F2 00 00 22 #in 00 00 CRC
+
+ 15号：(DVI/HDMI/VGA/VIDEO)
+F2 00 #in 22 #out  #id 00 CRC
+
+ 16号：(DVI/HDMI/VGA/VIDEO)
+[30 + #out/10] [30 + #out - 10#out/10] 4D('M') 61('a') [30 + #in - 100 *(#in/100)/10] [30 + #in -[#in/10]] 23('#') 61('a')
+
+ 17号：(DVI/HDMI/VGA/VIDEO)
+[SWCH," #id , #in ,"1," #out "]
+
+ 18号：(DVI/HDMI/VGA/VIDEO)
+#in "V" #out  "."
+
+ 19号：(DVI/HDMI/VGA/VIDEO)
+BA 01 #id {A0 , A1 ,A5 ,A6 ,AF} [2 + 2*count] #out  #in CRC 
+ 
+ 20号：(DVI/HDMI/VGA/VIDEO)
+#in , #out , #id , D ,V
+
+ 21号：(DVI/HDMI/VGA/VIDEO)
+F8 (#in &amp; FF) (#in &gt;&gt;8 &amp; FF) 81 #out 00 00 CRC(*18) FF F8 (#in &amp; FF) (#in &gt;&gt;8 &amp; FF) 80 #out 00 00 CRC FF
+
+ 22号：(DVI/HDMI/VGA/VIDEO)
+   0+#in "V" #out "."
+
+ 23号：(DVI/HDMI/VGA/VIDEO)
+F8 (#in &amp; FF) (#in &gt;&gt;8 &amp; FF) 81 #out 00 00 CRC(*16) FF F8 (#in &amp; FF) (#in &gt;&gt;8 &amp; FF) 80 #out 00 00 CRC FF
+
+ 24号：(DVI/HDMI/VGA/VIDEO)
+F4 00 20 #out 00 00 CRC 00 F4 (#in &amp; FF) 21 #out 00 00 CRC (#in &gt;&gt; 8 &amp; FF) 
+
+ 25号：(DVI/HDMI/VGA/VIDEO)
+96 #id 01 [2 + 2*count] A0 #out  #in 00
+
+ 26号：(DVI/HDMI/VGA/VIDEO)
+FF #id 09 #in #out AA
+
+ 27号：(DVI/HDMI/VGA/VIDEO)
+"!" #id {":G",":V",":L"} #in "*" #out "~\r"
+
+ 28号：(DVI/HDMI/VGA/VIDEO)
+"*"  #in  "N"  #out   "#"
+
+ 29号：(DVI/HDMI/VGA/VIDEO)
+#in  #id  #out  "&lt;" "!"
+
+ 30号：(DVI/HDMI/VGA/VIDEO)
+BB 01 #out [#in &amp; FF] [#in &gt;&gt; 8 &amp; FF] 00 #id CRC
+
+ 31号：(DVI/HDMI/VGA/VIDEO)
+BB 04 00 02 [#in &amp; FF]  #out  #id
+
+ 32号：(DVI/HDMI/VGA/VIDEO)
+A5 00 #id 01 #out #in 01 CRC
+
+ 33号：(DVI/HDMI/VGA/VIDEO)
+#id "V" #in "M" #out
+
+ 34号：(DVI/HDMI/VGA/VIDEO)
+"^SWI"  #in  #out  "$"
+ 
+ 35号：(DVI/HDMI/VGA/VIDEO)
+#in , #out , Y
+
+ 36号：(DVI/HDMI/VGA/VIDEO)
+#in "X"#out "."
+
+ 37号：(DVI/HDMI/VGA/VIDEO)
+"*"  #in  "D"  #out  "#"
+
+ 38号：(DVI/HDMI/VGA/VIDEO)
+#id "V" #in "V" #out
+
+ 39号：(DVI/HDMI/VGA/VIDEO)
+E7 #id 20 00 #in #out (FF - CRC)</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>拼接設置</value>
+  </data>
+</root>

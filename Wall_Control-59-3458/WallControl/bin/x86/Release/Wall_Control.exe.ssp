@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ssprotect>
+	<base_info>
+		<app>Virbox Protector Standalone</app>
+		<version>1.4.0.9014</version>
+	</base_info>
+	<file>
+		<path>F:\test\test\Wall_Control.ssp.exe</path>
+	</file>
+	<option>
+		<mix>1</mix>
+		<zip>1</zip>
+	</option>
+	<plugin>
+		<anti enable="0">
+			<x86 file="anti_x86.spd"></x86>
+			<x64 file="anti_x64.spd"></x64>
+			<option>
+				<anti_hbp type="bool">0</anti_hbp>
+				<anti_mbp type="bool">0</anti_mbp>
+				<enable_crc type="bool">0</enable_crc>
+			</option>
+		</anti>
+		<ds enable="1">
+			<x86 file="ss_res_protect_x86.dll"></x86>
+			<x64 file="ss_res_protect_x64.dll"></x64>
+			<option>
+				<pwd type="password">14A4BEB8C91E364F280FFB1822F6E140</pwd>
+			</option>
+		</ds>
+	</plugin>
+	<function>
+		<SENSENODESPACE0 type="space" name="WallControl">
+			<SENSENODECLASS1 type="class" name="MainForm">
+				<SENSENODEFUNC2 type="function" name="void initRoGridSet()">
+					<flags>1</flags>
+				</SENSENODEFUNC2>
+			</SENSENODECLASS1>
+		</SENSENODESPACE0>
+		<SENSENODESPACE3 type="space" name="WallControl">
+			<SENSENODECLASS4 type="class" name="MainForm">
+				<SENSENODEFUNC5 type="function" name="void saveSceneFile(string)">
+					<flags>8</flags>
+				</SENSENODEFUNC5>
+			</SENSENODECLASS4>
+		</SENSENODESPACE3>
+		<SENSENODESPACE6 type="space" name="WallControl">
+			<SENSENODECLASS7 type="class" name="MainForm">
+				<SENSENODEFUNC8 type="function" name="void Send_toScreen()">
+					<flags>8</flags>
+				</SENSENODEFUNC8>
+			</SENSENODECLASS7>
+		</SENSENODESPACE6>
+		<SENSENODESPACE9 type="space" name="WallControl">
+			<SENSENODECLASS10 type="class" name="MainForm">
+				<SENSENODEFUNC11 type="function" name="void Power_on()">
+					<flags>8</flags>
+				</SENSENODEFUNC11>
+			</SENSENODECLASS10>
+		</SENSENODESPACE9>
+		<SENSENODESPACE12 type="space" name="WallControl">
+			<SENSENODECLASS13 type="class" name="MainForm">
+				<SENSENODEFUNC14 type="function" name="void power_onThread(int,int,int,int,bool)">
+					<flags>8</flags>
+				</SENSENODEFUNC14>
+			</SENSENODECLASS13>
+		</SENSENODESPACE12>
+		<SENSENODESPACE15 type="space" name="WallControl">
+			<SENSENODECLASS16 type="class" name="MainForm">
+				<SENSENODEFUNC17 type="function" name="void Save_number(int)">
+					<flags>8</flags>
+				</SENSENODEFUNC17>
+			</SENSENODECLASS16>
+		</SENSENODESPACE15>
+		<SENSENODESPACE18 type="space" name="WallControl">
+			<SENSENODECLASS19 type="class" name="MainForm">
+				<SENSENODEFUNC20 type="function" name="void Send_Signa(byte,byte)">
+					<flags>8</flags>
+				</SENSENODEFUNC20>
+			</SENSENODECLASS19>
+		</SENSENODESPACE18>
+		<SENSENODESPACE21 type="space" name="WallControl">
+			<SENSENODECLASS22 type="class" name="MainForm">
+				<SENSENODEFUNC23 type="function" name="void Turn_on_off(bool,int)">
+					<flags>8</flags>
+				</SENSENODEFUNC23>
+			</SENSENODECLASS22>
+		</SENSENODESPACE21>
+		<SENSENODESPACE24 type="space" name="WallControl">
+			<SENSENODECLASS25 type="class" name="MainForm">
+				<SENSENODEFUNC26 type="function" name="void Init_comboBoxE()">
+					<flags>8</flags>
+				</SENSENODEFUNC26>
+			</SENSENODECLASS25>
+		</SENSENODESPACE24>
+		<SENSENODESPACE27 type="space" name="WallControl">
+			<SENSENODECLASS28 type="class" name="MainForm">
+				<SENSENODEFUNC29 type="function" name="void TcpSendMessage(byte[],int,int)">
+					<flags>8</flags>
+				</SENSENODEFUNC29>
+			</SENSENODECLASS28>
+		</SENSENODESPACE27>
+		<SENSENODESPACE30 type="space" name="WallControl">
+			<SENSENODECLASS31 type="class" name="AccessFunction">
+				<SENSENODEFUNC32 type="function" name="void AccessOpen()">
+					<flags>8</flags>
+				</SENSENODEFUNC32>
+			</SENSENODECLASS31>
+		</SENSENODESPACE30>
+		<SENSENODESPACE33 type="space" name="WallControl">
+			<SENSENODECLASS34 type="class" name="AccessFunction">
+				<SENSENODEFUNC35 type="function" name="DataTable GetTables()">
+					<flags>8</flags>
+				</SENSENODEFUNC35>
+			</SENSENODECLASS34>
+		</SENSENODESPACE33>
+		<SENSENODESPACE36 type="space" name="WallControl">
+			<SENSENODECLASS37 type="class" name="AccessFunction">
+				<SENSENODEFUNC38 type="function" name="DataTable GetClientProtocol(string)">
+					<flags>8</flags>
+				</SENSENODEFUNC38>
+			</SENSENODECLASS37>
+		</SENSENODESPACE36>
+		<SENSENODESPACE39 type="space" name="WallControl">
+			<SENSENODECLASS40 type="class" name="AccessFunction">
+				<SENSENODEFUNC41 type="function" name="void DeleteClientProtocol(string)">
+					<flags>8</flags>
+				</SENSENODEFUNC41>
+			</SENSENODECLASS40>
+		</SENSENODESPACE39>
+		<SENSENODESPACE42 type="space" name="WallControl">
+			<SENSENODECLASS43 type="class" name="AccessFunction">
+				<SENSENODEFUNC44 type="function" name="void InsertClientProtocol(string[])">
+					<flags>8</flags>
+				</SENSENODEFUNC44>
+			</SENSENODECLASS43>
+		</SENSENODESPACE42>
+		<SENSENODESPACE45 type="space" name="WallControl">
+			<SENSENODECLASS46 type="class" name="Screen">
+				<SENSENODEFUNC47 type="function" name="string ToString()">
+					<flags>8</flags>
+				</SENSENODEFUNC47>
+			</SENSENODECLASS46>
+		</SENSENODESPACE45>
+		<SENSENODESPACE48 type="space" name="WallControl">
+			<SENSENODECLASS49 type="class" name="Program">
+				<SENSENODEFUNC50 type="function" name="void Main()">
+					<flags>8</flags>
+				</SENSENODEFUNC50>
+			</SENSENODECLASS49>
+		</SENSENODESPACE48>
+	</function>
+</ssprotect>

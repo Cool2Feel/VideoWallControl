@@ -1,0 +1,11 @@
+C:\Users\ktcuser\Desktop\WallControl\WallControl\obj\Release\ResolveAssemblyReference.cache
+C:\Users\ktcuser\Desktop\WallControl\WallControl\obj\Release\WallControl.Form_about.resources
+C:\Users\ktcuser\Desktop\WallControl\WallControl\obj\Release\WallControl.Form_Addr.resources
+C:\Users\ktcuser\Desktop\WallControl\WallControl\obj\Release\WallControl.Form_Color.resources
+C:\Users\ktcuser\Desktop\WallControl\WallControl\obj\Release\WallControl.Form_Picture.resources
+C:\Users\ktcuser\Desktop\WallControl\WallControl\obj\Release\WallControl.Form_UartIrCmd.resources
+C:\Users\ktcuser\Desktop\WallControl\WallControl\obj\Release\WallControl.MainForm.resources
+C:\Users\ktcuser\Desktop\WallControl\WallControl\obj\Release\WallControl.Properties.Resources.resources
+C:\Users\ktcuser\Desktop\WallControl\WallControl\obj\Release\WallControl.SerialSetForm.resources
+C:\Users\ktcuser\Desktop\WallControl\WallControl\obj\Release\WallControl.WallSetForm.resources
+C:\Users\ktcuser\Desktop\WallControl\WallControl\obj\Release\WallControl.csproj.GenerateResource.Cache

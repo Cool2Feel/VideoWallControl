@@ -1,0 +1,943 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7E37CE8C-CF6F-4097-977C-339B9645A1BA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WallControl</RootNamespace>
+    <AssemblyName>Wall_Control</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>tv_screen.ico</ApplicationIcon>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>false</GenerateManifests>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Pj_Control|AnyCPU' ">
+    <OutputPath>bin\Pj_Control\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Pj_Control|x64' ">
+    <OutputPath>bin\x64\Pj_Control\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Pj_Control|x86' ">
+    <OutputPath>bin\x86\Pj_Control\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=8.2.0.2, Culture=neutral, PublicKeyToken=5fd520d36328f741, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Users\C_tool\Device_DotNetBar\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="unvell.ReoGrid, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessFunction.cs" />
+    <Compile Include="ColorDropDownList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ColorDropDownList.Designer.cs">
+      <DependentUpon>ColorDropDownList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DsAlphaRichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DsAlphaRichTextBox.Designer.cs">
+      <DependentUpon>DsAlphaRichTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExceptionLog.cs" />
+    <Compile Include="FileHandle.cs" />
+    <Compile Include="Form_about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_about.Designer.cs">
+      <DependentUpon>Form_about.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Addr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Addr.Designer.cs">
+      <DependentUpon>Form_Addr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Auto.Designer.cs">
+      <DependentUpon>Form_Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_BText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_BText.Designer.cs">
+      <DependentUpon>Form_BText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Color.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Color.Designer.cs">
+      <DependentUpon>Form_Color.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Color_59.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Color_59.designer.cs">
+      <DependentUpon>Form_Color_59.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Edit.Designer.cs">
+      <DependentUpon>Form_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Info.Designer.cs">
+      <DependentUpon>Form_Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Info59.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Info59.Designer.cs">
+      <DependentUpon>Form_Info59.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Log.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Log.Designer.cs">
+      <DependentUpon>Form_Log.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Logo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Logo.Designer.cs">
+      <DependentUpon>Form_Logo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_MatrixMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_MatrixMap.designer.cs">
+      <DependentUpon>Form_MatrixMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Modify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Modify.Designer.cs">
+      <DependentUpon>Form_Modify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_OnOff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_OnOff.Designer.cs">
+      <DependentUpon>Form_OnOff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Picture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Picture.Designer.cs">
+      <DependentUpon>Form_Picture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Protocol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Protocol.designer.cs">
+      <DependentUpon>Form_Protocol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Reg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Reg.Designer.cs">
+      <DependentUpon>Form_Reg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_RunText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_RunText.Designer.cs">
+      <DependentUpon>Form_RunText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Scename.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Scename.Designer.cs">
+      <DependentUpon>Form_Scename.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Start.Designer.cs">
+      <DependentUpon>Form_Start.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_TextSend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_TextSend.Designer.cs">
+      <DependentUpon>Form_TextSend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Tips.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Tips.Designer.cs">
+      <DependentUpon>Form_Tips.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_TipsText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_TipsText.Designer.cs">
+      <DependentUpon>Form_TipsText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UartIrCmd_59.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_UartIrCmd_59.designer.cs">
+      <DependentUpon>Form_UartIrCmd_59.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UartIrCmd_3458.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_UartIrCmd_3458.Designer.cs">
+      <DependentUpon>Form_UartIrCmd_3458.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_User.Designer.cs">
+      <DependentUpon>Form_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_WaitRun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_WaitRun.Designer.cs">
+      <DependentUpon>Form_WaitRun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Weather.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Weather.Designer.cs">
+      <DependentUpon>Form_Weather.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IniFiles.cs" />
+    <Compile Include="IOCPClient\client.cs" />
+    <Compile Include="IOCPServer\AsyncEventArgs.cs" />
+    <Compile Include="IOCPServer\AsyncUserToken.cs" />
+    <Compile Include="IOCPServer\BufferManager.cs" />
+    <Compile Include="IOCPServer\DaemonThread.cs" />
+    <Compile Include="IOCPServer\IOCPServer.cs" />
+    <Compile Include="IOCPServer\SocketAsyncEventArgsPool.cs" />
+    <Compile Include="IOCPServer\TCPClientState.cs" />
+    <Compile Include="LogHelper.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Info.cs" />
+    <Compile Include="MergeGroup.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form_about.en-US.resx">
+      <DependentUpon>Form_about.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_about.resx">
+      <DependentUpon>Form_about.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_about.zh-CHS.resx">
+      <DependentUpon>Form_about.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Addr.en-US.resx">
+      <DependentUpon>Form_Addr.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Addr.resx">
+      <DependentUpon>Form_Addr.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Addr.zh-CHS.resx">
+      <DependentUpon>Form_Addr.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Auto.en-US.resx">
+      <DependentUpon>Form_Auto.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Auto.resx">
+      <DependentUpon>Form_Auto.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Auto.zh-CHS.resx">
+      <DependentUpon>Form_Auto.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Color.en-US.resx">
+      <DependentUpon>Form_Color.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Color.resx">
+      <DependentUpon>Form_Color.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Color.zh-CHS.resx">
+      <DependentUpon>Form_Color.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Info.en-US.resx">
+      <DependentUpon>Form_Info.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Info.resx">
+      <DependentUpon>Form_Info.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Info.zh-CHS.resx">
+      <DependentUpon>Form_Info.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Log.en-US.resx">
+      <DependentUpon>Form_Log.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Log.resx">
+      <DependentUpon>Form_Log.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Log.zh-CHS.resx">
+      <DependentUpon>Form_Log.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_OnOff.en-US.resx">
+      <DependentUpon>Form_OnOff.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_OnOff.resx">
+      <DependentUpon>Form_OnOff.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_OnOff.zh-CHS.resx">
+      <DependentUpon>Form_OnOff.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Picture.resx">
+      <DependentUpon>Form_Picture.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Reg.en-US.resx">
+      <DependentUpon>Form_Reg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Reg.resx">
+      <DependentUpon>Form_Reg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Reg.zh-CHS.resx">
+      <DependentUpon>Form_Reg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_TextSend.resx">
+      <DependentUpon>Form_TextSend.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UartIrCmd_3458.en-US.resx">
+      <DependentUpon>Form_UartIrCmd_3458.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UartIrCmd_3458.resx">
+      <DependentUpon>Form_UartIrCmd_3458.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UartIrCmd_3458.zh-CHS.resx">
+      <DependentUpon>Form_UartIrCmd_3458.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_User.resx">
+      <DependentUpon>Form_User.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_WaitRun.en-US.resx">
+      <DependentUpon>Form_WaitRun.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_WaitRun.resx">
+      <DependentUpon>Form_WaitRun.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_WaitRun.zh-CHS.resx">
+      <DependentUpon>Form_WaitRun.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.en-US.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.zh-CHS.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SerialSetForm.en-US.resx">
+      <DependentUpon>SerialSetForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SerialSetForm.resx">
+      <DependentUpon>SerialSetForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SerialSetForm.zh-CHS.resx">
+      <DependentUpon>SerialSetForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WallSetForm.en-US.resx">
+      <DependentUpon>WallSetForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WallSetForm.resx">
+      <DependentUpon>WallSetForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WallSetForm.zh-CHS.resx">
+      <DependentUpon>WallSetForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Register.cs" />
+    <Compile Include="Screen.cs" />
+    <Compile Include="SendDataMap.cs" />
+    <Compile Include="SerialPortUtil.cs" />
+    <Compile Include="SerialSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SerialSetForm.Designer.cs">
+      <DependentUpon>SerialSetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WallSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WallSetForm.Designer.cs">
+      <DependentUpon>WallSetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\cn.com.webxml.www\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="BMP\power851.png" />
+    <None Include="BMP\power861.png" />
+    <None Include="BMP\1.png" />
+    <None Include="BMP\新建.png" />
+    <None Include="BMP\打开%281%29.png" />
+    <None Include="BMP\保存%281%29.png" />
+    <None Include="BMP\关于.png" />
+    <None Include="BMP\设定.png" />
+    <None Include="BMP\设置.png" />
+    <None Include="BMP\关于%281%29.png" />
+    <None Include="BMP\next.bmp" />
+    <None Include="BMP\ON.png" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Resources\Channel%281%29.png" />
+    <None Include="Resources\channel.png" />
+    <None Include="Resources\设备_VGA.png" />
+    <None Include="Resources\dvi.png" />
+    <None Include="Resources\hdmi.png" />
+    <None Include="Resources\video.png" />
+    <None Include="bin\x86\拼接上位机软件LOGO\上位机_英文版_MTC_New_Logo.jpg" />
+    <Content Include="en_easyicon_net_64.ico" />
+    <None Include="Resources\506.jpg" />
+    <None Include="Resources\538.jpg" />
+    <None Include="Resources\5538.jpg" />
+    <Content Include="Resources\bg35.bmp" />
+    <Content Include="Resources\bg37.bmp" />
+    <None Include="Resources\系统信息20.png" />
+    <None Include="Resources\静音.png" />
+    <None Include="Resources\菜单.png" />
+    <None Include="Resources\播放.png" />
+    <None Include="Resources\暂停.png" />
+    <None Include="Resources\停止.png" />
+    <None Include="Resources\快退.png" />
+    <None Include="Resources\快进.png" />
+    <None Include="Resources\上.png" />
+    <None Include="Resources\右.png" />
+    <None Include="Resources\左.png" />
+    <None Include="Resources\下.png" />
+    <None Include="Resources\电源.png" />
+    <None Include="Resources\加.png" />
+    <None Include="Resources\减.png" />
+    <None Include="Resources\输出.png" />
+    <None Include="Resources\合并.png" />
+    <None Include="Resources\拆分.png" />
+    <None Include="Resources\开.png" />
+    <None Include="Resources\关.png" />
+    <None Include="Resources\spd42.jpg" />
+    <None Include="Resources\c3ffaa93416c6a900d9b8a0066fc470e.jpg" />
+    <EmbeddedResource Include="Form_about.zh-CHT.resx">
+      <DependentUpon>Form_about.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Auto.zh-CHT.resx">
+      <DependentUpon>Form_Auto.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_BText.en-US.resx">
+      <DependentUpon>Form_BText.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_BText.resx">
+      <DependentUpon>Form_BText.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Color.zh-CHT.resx">
+      <DependentUpon>Form_Color.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Color_59.en-US.resx">
+      <DependentUpon>Form_Color_59.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Color_59.resx">
+      <DependentUpon>Form_Color_59.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Color_59.zh-CHS.resx">
+      <DependentUpon>Form_Color_59.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Color_59.zh-CHT.resx">
+      <DependentUpon>Form_Color_59.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Edit.en-US.resx">
+      <DependentUpon>Form_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Edit.resx">
+      <DependentUpon>Form_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Edit.zh-CHS.resx">
+      <DependentUpon>Form_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Edit.zh-CHT.resx">
+      <DependentUpon>Form_Edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Info.zh-CHT.resx">
+      <DependentUpon>Form_Info.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Info59.en-US.resx">
+      <DependentUpon>Form_Info59.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Info59.resx">
+      <DependentUpon>Form_Info59.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Info59.zh-CHS.resx">
+      <DependentUpon>Form_Info59.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Info59.zh-CHT.resx">
+      <DependentUpon>Form_Info59.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Log.zh-CHT.resx">
+      <DependentUpon>Form_Log.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Logo.en-US.resx">
+      <DependentUpon>Form_Logo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Logo.resx">
+      <DependentUpon>Form_Logo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Logo.zh-CHS.resx">
+      <DependentUpon>Form_Logo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_MatrixMap.resx">
+      <DependentUpon>Form_MatrixMap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_MatrixMap.zh-CHS.resx">
+      <DependentUpon>Form_MatrixMap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Modify.en-US.resx">
+      <DependentUpon>Form_Modify.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Modify.resx">
+      <DependentUpon>Form_Modify.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Modify.zh-CHS.resx">
+      <DependentUpon>Form_Modify.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Modify.zh-CHT.resx">
+      <DependentUpon>Form_Modify.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_OnOff.zh-CHT.resx">
+      <DependentUpon>Form_OnOff.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Protocol.en-US.resx">
+      <DependentUpon>Form_Protocol.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Protocol.resx">
+      <DependentUpon>Form_Protocol.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Protocol.zh-CHT.resx">
+      <DependentUpon>Form_Protocol.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_RunText.en-US.resx">
+      <DependentUpon>Form_RunText.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_RunText.resx">
+      <DependentUpon>Form_RunText.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_RunText.zh-CHS.resx">
+      <DependentUpon>Form_RunText.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Scename.en-US.resx">
+      <DependentUpon>Form_Scename.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Scename.resx">
+      <DependentUpon>Form_Scename.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Scename.zh-CHS.resx">
+      <DependentUpon>Form_Scename.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Scename.zh-CHT.resx">
+      <DependentUpon>Form_Scename.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Start.resx">
+      <DependentUpon>Form_Start.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_TextSend.en-US.resx">
+      <DependentUpon>Form_TextSend.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_TextSend.zh-CHS.resx">
+      <DependentUpon>Form_TextSend.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Tips.en-US.resx">
+      <DependentUpon>Form_Tips.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Tips.resx">
+      <DependentUpon>Form_Tips.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Tips.zh-CHS.resx">
+      <DependentUpon>Form_Tips.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_TipsText.en-US.resx">
+      <DependentUpon>Form_TipsText.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_TipsText.resx">
+      <DependentUpon>Form_TipsText.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_TipsText.zh-CHS.resx">
+      <DependentUpon>Form_TipsText.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_TipsText.zh-CHT.resx">
+      <DependentUpon>Form_TipsText.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UartIrCmd_59.en-US.resx">
+      <DependentUpon>Form_UartIrCmd_59.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UartIrCmd_59.resx">
+      <DependentUpon>Form_UartIrCmd_59.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UartIrCmd_59.zh-CHS.resx">
+      <DependentUpon>Form_UartIrCmd_59.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_WaitRun.zh-CHT.resx">
+      <DependentUpon>Form_WaitRun.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Weather.resx">
+      <DependentUpon>Form_Weather.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.zh-CHT.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SerialSetForm.zh-CHT.resx">
+      <DependentUpon>SerialSetForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="skin\Calmness.ssk" />
+    <EmbeddedResource Include="skin\CalmnessColor1.ssk" />
+    <EmbeddedResource Include="skin\CalmnessColor2.ssk" />
+    <EmbeddedResource Include="skin\DeepCyan.ssk" />
+    <EmbeddedResource Include="skin\DeepGreen.ssk" />
+    <EmbeddedResource Include="skin\DeepOrange.ssk" />
+    <EmbeddedResource Include="skin\DiamondBlue.ssk" />
+    <EmbeddedResource Include="skin\DiamondGreen.ssk" />
+    <EmbeddedResource Include="skin\Eighteen.ssk" />
+    <EmbeddedResource Include="skin\EighteenColor1.ssk" />
+    <EmbeddedResource Include="skin\EighteenColor2.ssk" />
+    <EmbeddedResource Include="skin\Emerald.ssk" />
+    <EmbeddedResource Include="skin\EmeraldColor1.ssk" />
+    <EmbeddedResource Include="skin\EmeraldColor2.ssk" />
+    <EmbeddedResource Include="skin\EmeraldColor3.ssk" />
+    <EmbeddedResource Include="skin\GlassBrown.ssk" />
+    <EmbeddedResource Include="skin\GlassGreen.ssk" />
+    <EmbeddedResource Include="skin\GlassOrange.ssk" />
+    <EmbeddedResource Include="skin\Longhorn.ssk" />
+    <EmbeddedResource Include="skin\MacOS.ssk" />
+    <EmbeddedResource Include="skin\Midsummer.ssk" />
+    <EmbeddedResource Include="skin\MidsummerColor1.ssk" />
+    <EmbeddedResource Include="skin\MidsummerColor2.ssk" />
+    <EmbeddedResource Include="skin\MidsummerColor3.ssk" />
+    <EmbeddedResource Include="skin\MP10.ssk" />
+    <EmbeddedResource Include="skin\MSN.ssk" />
+    <EmbeddedResource Include="skin\OneBlue.ssk" />
+    <EmbeddedResource Include="skin\OneCyan.ssk" />
+    <EmbeddedResource Include="skin\OneGreen.ssk" />
+    <EmbeddedResource Include="skin\OneOrange.ssk" />
+    <EmbeddedResource Include="skin\Page.ssk" />
+    <EmbeddedResource Include="skin\PageColor1.ssk" />
+    <EmbeddedResource Include="skin\PageColor2.ssk" />
+    <EmbeddedResource Include="skin\RealOne.ssk" />
+    <EmbeddedResource Include="skin\Silver.ssk" />
+    <EmbeddedResource Include="skin\SilverColor1.ssk" />
+    <EmbeddedResource Include="skin\SilverColor2.ssk" />
+    <EmbeddedResource Include="skin\SportsBlack.ssk" />
+    <EmbeddedResource Include="skin\SportsBlue.ssk" />
+    <EmbeddedResource Include="skin\SportsCyan.ssk" />
+    <EmbeddedResource Include="skin\SportsGreen.ssk" />
+    <EmbeddedResource Include="skin\SportsOrange.ssk" />
+    <EmbeddedResource Include="skin\SteelBlack.ssk" />
+    <EmbeddedResource Include="skin\SteelBlue.ssk" />
+    <EmbeddedResource Include="skin\vista1.ssk" />
+    <EmbeddedResource Include="skin\Warm.ssk" />
+    <EmbeddedResource Include="skin\Wave.ssk" />
+    <EmbeddedResource Include="skin\XPBlue.ssk" />
+    <EmbeddedResource Include="skin\XPGreen.ssk" />
+    <EmbeddedResource Include="skin\XPOrange.ssk" />
+    <EmbeddedResource Include="skin\XPSilver.ssk" />
+    <EmbeddedResource Include="skin\副本 Calmness.ssk" />
+    <EmbeddedResource Include="WallSetForm.zh-CHT.resx">
+      <DependentUpon>WallSetForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Resources\拼接.jpg" />
+    <Content Include="tv_screen.ico" />
+    <None Include="Web References\cn.com.webxml.www\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\cn.com.webxml.www\WeatherWebService.disco" />
+    <None Include="Web References\cn.com.webxml.www\WeatherWebService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSScriptControl">
+      <Guid>{0E59F1D2-1FBE-11D0-8FF2-00A0D10038BC}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://www.webxml.com.cn/WebServices/WeatherWebService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\cn.com.webxml.www\</RelPath>
+      <UpdateFromURL>http://www.webxml.com.cn/WebServices/WeatherWebService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WallControl_cn_com_webxml_www_WeatherWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

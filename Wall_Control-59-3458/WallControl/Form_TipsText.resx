@@ -1,0 +1,2604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;buttonX1.Name" xml:space="preserve">
+    <value>buttonX1</value>
+  </data>
+  <data name="colorDropDownList1.Items285" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items585" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items485" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items192" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="comboBox_City.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 252</value>
+  </data>
+  <data name="colorDropDownList1.Items292" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="colorDropDownList1.Items163" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items363" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="colorDropDownList1.Items263" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items563" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items463" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="&gt;&gt;fontDialog1.Name" xml:space="preserve">
+    <value>fontDialog1</value>
+  </data>
+  <data name="colorDropDownList1.Items296" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items176" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items496" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="colorDropDownList1.Items376" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items276" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items576" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items476" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items190" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items167" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items490" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items367" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items267" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items567" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items467" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Name" xml:space="preserve">
+    <value>checkBox2</value>
+  </data>
+  <data name="colorDropDownList1.Items525" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 256</value>
+  </data>
+  <data name="buttonX1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>599, 242</value>
+  </data>
+  <data name="&gt;&gt;comboBox_province.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="colorDropDownList1.Items41" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items71" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items91" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items81" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="&gt;&gt;comboBox_City.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;button_font.Name" xml:space="preserve">
+    <value>button_font</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 52</value>
+  </data>
+  <data name="comboBox_City.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 25</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 21</value>
+  </data>
+  <data name="checkBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>背景颜色设置</value>
+  </data>
+  <data name="colorDropDownList1.Items160" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items360" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items260" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items560" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items460" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items287" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="colorDropDownList1.Items587" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items487" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>96, 96</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 248</value>
+  </data>
+  <data name="colorDropDownList1.Items57" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items202" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items502" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items402" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items373" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items273" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items573" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items473" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items498" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items164" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items364" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items264" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 24</value>
+  </data>
+  <data name="colorDropDownList1.Items464" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="comboBox_province.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colorDropDownList1.Items350" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items250" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items550" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items146" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items346" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items246" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items546" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items446" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 129</value>
+  </data>
+  <data name="colorDropDownList1.Items83" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="&gt;&gt;slider1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="colorDropDownList1.Items98" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items177" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items377" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items277" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items577" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items477" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="colorDropDownList1.Items206" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items168" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items368" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items268" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="colorDropDownList1.Items568" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items468" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="&gt;&gt;buttonX1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colorDropDownList1.Items113" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items313" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items213" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items513" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items413" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="colorDropDownList1.Items532" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colorDropDownList1.Items299" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="checkBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBox3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="colorDropDownList1.Items351" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items251" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items551" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="&gt;&gt;colorDropDownList1.Type" xml:space="preserve">
+    <value>WallControl.ColorDropDownList, Wall_Control, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="colorDropDownList1.Items103" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items303" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items203" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items503" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items403" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items122" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items322" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items222" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items522" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items422" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colorDropDownList1.Items170" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items370" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items35" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items25" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items55" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items45" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items75" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="colorDropDownList1.Items95" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="colorDropDownList1.Items270" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items570" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items470" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items21" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="colorDropDownList1.Items51" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items161" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items361" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items261" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items561" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items461" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items555" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items143" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items343" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 207</value>
+  </data>
+  <data name="colorDropDownList1.Items543" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items443" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items174" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items374" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items274" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items574" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items474" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items165" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items186" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items365" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>滚动速度：</value>
+  </data>
+  <data name="colorDropDownList1.Items286" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items586" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items486" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items456" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items24" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items54" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items44" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items74" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items64" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items94" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items147" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items347" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items247" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items547" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items447" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items178" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items378" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items278" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="slider1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colorDropDownList1.Items478" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="button_font.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="colorDropDownList1.Items123" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items269" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items323" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items223" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items423" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items342" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items542" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items442" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colorDropDownList1.Items134" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="comboBox_City.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colorDropDownList1.Items334" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items534" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 166</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="colorDropDownList1.Items211" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 36</value>
+  </data>
+  <data name="colorDropDownList1.Items37" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items27" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="button_font.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="colorDropDownList1.Items47" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items77" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items67" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items97" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="&gt;&gt;buttonX1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;comboBox_province.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
+    <value>richTextBox1</value>
+  </data>
+  <data name="colorDropDownList1.Items153" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items353" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items253" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items553" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="colorDropDownList1.Items453" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="colorDropDownList1.Items272" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items472" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="&gt;&gt;colorDialog1.Name" xml:space="preserve">
+    <value>colorDialog1</value>
+  </data>
+  <data name="colorDropDownList1.Items524" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items36" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items26" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items56" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items46" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items76" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items66" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 126</value>
+  </data>
+  <data name="colorDropDownList1.Items140" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items340" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items240" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items540" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items440" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items171" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="button_font.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 30</value>
+  </data>
+  <data name="colorDropDownList1.Items371" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items271" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items571" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items471" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items16" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items162" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items183" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items362" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items262" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items283" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items583" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items483" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items96" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items86" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items562" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items462" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items144" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items344" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="colorDropDownList1.Items244" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items544" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items444" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="colorDropDownList1.Items196" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items126" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items396" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items326" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items226" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items526" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items426" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>443, 11</value>
+  </data>
+  <data name="colorDropDownList1.Items106" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items187" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items157" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items387" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items357" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items257" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items557" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items457" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items325" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="colorDropDownList1.Items425" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items148" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items348" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items248" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items548" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items448" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="button_font.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 122</value>
+  </data>
+  <data name="colorDropDownList1.Items179" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items379" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items279" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items579" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items479" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items173" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>字体显示颜色：</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 192</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="colorDropDownList1.Items136" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items336" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items236" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items536" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="numericUpDown1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="slider1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 165</value>
+  </data>
+  <data name="&gt;&gt;slider1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="colorDropDownList1.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;comboBox_province.Name" xml:space="preserve">
+    <value>comboBox_province</value>
+  </data>
+  <data name="colorDropDownList1.Items180" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items150" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items380" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items280" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items580" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items480" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items450" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items141" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items341" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items241" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items541" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items441" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="colorDropDownList1.Items302" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items17" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items172" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items193" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items372" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items2" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="colorDropDownList1.Items572" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="colorDropDownList1.Items523" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items6" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items87" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items8" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items184" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items154" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="buttonX1.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="colorDropDownList1.Items354" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items254" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items554" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items454" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items145" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items345" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items245" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items545" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items445" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>背景/Logo图片：</value>
+  </data>
+  <data name="colorDropDownList1.Items436" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items197" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items127" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items397" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items297" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items227" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items497" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="colorDropDownList1.Items556" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items175" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="slider1.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="colorDropDownList1.Items188" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items275" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items388" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items288" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items588" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items488" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items458" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="buttonX1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 45</value>
+  </data>
+  <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="colorDropDownList1.Items327" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items549" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items449" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items427" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;colorDropDownList1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;slider1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.Slider, DevComponents.DotNetBar2, Version=8.2.0.2, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="colorDropDownList1.Items527" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="&gt;&gt;comboBox_City.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="colorDropDownList1.Items209" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items265" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items565" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items465" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items311" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 207</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="richTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="numericUpDown1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 204</value>
+  </data>
+  <data name="colorDropDownList1.Items120" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="colorDropDownList1.Items320" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items220" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items520" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items420" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 11</value>
+  </data>
+  <data name="numericUpDown1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 23</value>
+  </data>
+  <data name="colorDropDownList1.Items181" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items151" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items381" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items281" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items581" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items481" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items451" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items243" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="colorDropDownList1.Items14" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items142" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items34" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items133" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items242" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items333" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items233" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items533" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items433" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items84" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items194" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items124" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="checkBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>476, 254</value>
+  </data>
+  <data name="colorDropDownList1.Items324" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items224" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items494" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items424" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items158" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items358" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items258" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items185" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items155" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items385" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items355" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items255" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items306" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="colorDropDownList1.Items455" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items506" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items406" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items137" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items337" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items237" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items537" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items437" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items529" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items198" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items128" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items398" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items328" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items228" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items528" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items428" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items23" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items53" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items73" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items189" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items159" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items389" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items359" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items259" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items559" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items459" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items375" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items575" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="&gt;&gt;checkBox3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
+    <value>openFileDialog1</value>
+  </data>
+  <data name="comboBox_province.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 161</value>
+  </data>
+  <data name="numericUpDown2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form_TipsText</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="colorDropDownList1.Items578" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colorDropDownList1.Items289" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="comboBox_City.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="colorDropDownList1.Items130" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items330" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items230" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="colorDropDownList1.Items530" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items430" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items191" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items121" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items391" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items321" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items221" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items521" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items421" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items558" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items18" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items15" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items152" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items28" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items352" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items252" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items552" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items452" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items65" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items88" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items85" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="&gt;&gt;button_font.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>城市气象字幕：</value>
+  </data>
+  <data name="colorDropDownList1.Items234" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colorDropDownList1.Items434" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items195" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items125" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items395" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items116" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="colorDropDownList1.Items225" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items316" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items216" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items516" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items416" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items107" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items307" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items207" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items507" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items407" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items1" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="colorDropDownList1.Items138" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items5" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items338" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items238" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items538" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items438" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items356" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items256" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="colorDropDownList1.Items199" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items129" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items399" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items329" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items229" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items499" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items429" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="buttonX1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;button_font.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="colorDropDownList1.Items475" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox_province.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colorDropDownList1.Items169" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items369" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items569" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items469" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_font.Text" xml:space="preserve">
+    <value>字体设置</value>
+  </data>
+  <data name="&gt;&gt;checkBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>显示天气</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="numericUpDown2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 23</value>
+  </data>
+  <data name="colorDropDownList1.Items100" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items300" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items200" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items500" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items400" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items131" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items331" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items231" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items531" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items431" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items19" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items12" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items39" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items32" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items22" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items52" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items42" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items72" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items62" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items92" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items82" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 30</value>
+  </data>
+  <data name="colorDropDownList1.Items104" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="colorDropDownList1.Items304" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items204" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items504" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items404" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="comboBox_province.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="colorDropDownList1.Items135" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="colorDropDownList1.Items335" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items235" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items535" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items435" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="numericUpDown1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>692, 314</value>
+  </data>
+  <data name="colorDropDownList1.Items117" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="&gt;&gt;checkBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="colorDropDownList1.Items317" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items217" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items517" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items417" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="colorDropDownList1.Items108" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items308" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items208" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items508" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items408" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>字幕设置</value>
+  </data>
+  <data name="colorDropDownList1.Items139" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items339" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items239" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items539" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items439" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 21</value>
+  </data>
+  <data name="colorDropDownList1.Items149" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items349" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items249" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="slider1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 23</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colorDropDownList1.Items405" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="colorDropDownList1.Items298" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="comboBox_province.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 252</value>
+  </data>
+  <data name="checkBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 21</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;colorDropDownList1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="colorDropDownList1.Items110" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colorDropDownList1.Items310" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items210" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items510" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items410" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items101" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="numericUpDown2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 204</value>
+  </data>
+  <data name="colorDropDownList1.Items301" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items201" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items501" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items401" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="colorDropDownList1.Items13" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items132" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items33" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items332" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items232" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items43" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items432" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items63" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items93" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items390" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items290" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="colorDropDownList1.Items114" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items314" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items214" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items514" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items414" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items105" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items305" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items205" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items505" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="slider1.Text" xml:space="preserve">
+    <value>60%</value>
+  </data>
+  <data name="&gt;&gt;comboBox_City.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="colorDropDownList1.Items118" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items318" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items218" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items518" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items418" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="colorDropDownList1.Items109" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items309" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="&gt;&gt;fontDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FontDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colorDropDownList1.Items509" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items409" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items156" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 17</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 189</value>
+  </data>
+  <data name="colorDropDownList1.Items4" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items291" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items491" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown2.Name" xml:space="preserve">
+    <value>numericUpDown2</value>
+  </data>
+  <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>399, 78</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;slider1.Name" xml:space="preserve">
+    <value>slider1</value>
+  </data>
+  <data name="pictureBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colorDropDownList1.Items29" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items59" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="colorDropDownList1.Items49" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items79" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items69" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items99" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items89" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="numericUpDown2.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="buttonX1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button_font.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 33</value>
+  </data>
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 21</value>
+  </data>
+  <data name="colorDropDownList1.Items392" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items111" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items492" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items294" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="colorDropDownList1.Items511" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items411" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items10" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items102" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items30" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items20" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items50" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items40" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="colorDropDownList1.Items70" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items60" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items90" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items80" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items38" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items58" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items48" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items78" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="colorDropDownList1.Items68" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>字幕文本：</value>
+  </data>
+  <data name="colorDropDownList1.Items115" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items315" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items215" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="colorDropDownList1.Items415" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>443, 36</value>
+  </data>
+  <data name="checkBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="colorDropDownList1.Items182" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>背景透明度</value>
+  </data>
+  <data name="colorDropDownList1.Items382" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="colorDropDownList1.Items282" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="colorDropDownList1.Items582" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items482" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="colorDropDownList1.Items119" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items319" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items219" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items519" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="colorDropDownList1.Items419" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorDropDownList1.Items489" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>应用显示</value>
+  </data>
+  <data name="checkBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="button_font.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;buttonX1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=8.2.0.2, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="colorDropDownList1.Items393" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items293" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items493" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Name" xml:space="preserve">
+    <value>numericUpDown1</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="buttonX1.Text" xml:space="preserve">
+    <value>图片选择</value>
+  </data>
+  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 43</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 192</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;checkBox3.Name" xml:space="preserve">
+    <value>checkBox3</value>
+  </data>
+  <data name="colorDropDownList1.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colorDropDownList1.Items386" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;colorDropDownList1.Name" xml:space="preserve">
+    <value>colorDropDownList1</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="colorDropDownList1.Items383" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colorDropDownList1.Items11" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="colorDropDownList1.Items112" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="colorDropDownList1.Items31" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="colorDropDownList1.Items312" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="colorDropDownList1.Items212" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items512" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items412" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorDropDownList1.Items61" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items394" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="checkBox2.Text" xml:space="preserve">
+    <value>鼠标穿透</value>
+  </data>
+  <data name="button3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colorDropDownList1.Items166" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items366" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="colorDropDownList1.Items266" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="colorDropDownList1.Items566" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="colorDropDownList1.Items466" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="checkBox3.Text" xml:space="preserve">
+    <value>显示背景图片</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="colorDropDownList1.Items564" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>延时间隔：</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 117</value>
+  </data>
+  <data name="colorDropDownList1.Items515" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="colorDropDownList1.Items384" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="colorDropDownList1.Items284" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorDropDownList1.Items584" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="colorDropDownList1.Items484" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="richTextBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>拼接软件字幕显示《液晶拼接控制软件》</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 17</value>
+  </data>
+  <data name="&gt;&gt;colorDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colorDropDownList1.Items295" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="colorDropDownList1.Items495" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBox_City.Name" xml:space="preserve">
+    <value>comboBox_City</value>
+  </data>
+  <data name="colorDropDownList1.Items3" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorDropDownList1.Items7" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="colorDropDownList1.Items9" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>504, 17</value>
+  </metadata>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>234, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="fontDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>378, 16</value>
+  </metadata>
+  <metadata name="colorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>
